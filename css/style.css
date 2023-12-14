@@ -109,6 +109,26 @@ img{
     opacity: 1;
 }
 
+/* sconti */
+
+.images .details{
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    color: white;
+}
+
+.discount{
+    background-color: red;
+    padding: 5px 10px;
+}
+
+.green{
+    background-color: green;
+    padding: 5px 10px;
+
+}
+
 .heart{
     display: flex;
     justify-content: center;
