@@ -12,9 +12,13 @@ body{
 
 /* inizo header e navbar */
 
+
 nav{
-    /* width: 100%;
-    position: fixed; */
+    width: 100%;;
+    /* position: fixed;
+    top: 0; */
+
+    /* margin-bottom: 40px; */
 
     background-color: #FF6900;
 }
@@ -26,9 +30,6 @@ nav{
     margin-right: auto;
 }
 
-
-.container.flex{
-}
 
 
 nav .container{
@@ -74,11 +75,16 @@ nav .container .profile{
 
 /* inizio main */
 
+main{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 main .container{
     justify-content: space-between;
     flex-wrap: wrap;
 
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 
@@ -129,6 +135,8 @@ img{
 
 }
 
+/* cuore */
+
 .heart{
     display: flex;
     justify-content: center;
@@ -156,6 +164,37 @@ img{
 .prize-black{
     text-decoration: line-through;
 }
+
+/* fine del main */
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #1A1A1A;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .container{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+footer .container .info span{
+    margin-right: 5px;
+}
+
+.social i{
+    margin-left: 5px;
+}
+
+
+
+
+
+
 
 
 
