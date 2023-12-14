@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regola di reset */
+
+body{
+    font-family: sans-serif;
+}
+
+/* inizo header e navbar */
+
+nav{
+    /* width: 100%;
+    position: fixed; */
+
+    background-color: #FF6900;
+}
+
+.container{
+
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav .container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+nav .container .links{
+    text-align: left;
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+.links ul li{
+    display: inline-block;
+}
+
+nav .container .logo{
+    flex-grow: 2;
+    text-align: center;
+    height: 25px;
+    width: 120px;
+
+    padding-right: 20px;
+}
+
+
+
+nav .container .profile{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+
+    padding-left: 30px;
+}
+
+
+/* inizio main */
+
+main .container div{
+    width: 330px;
+    height: 200px;
+    border: 2px solid black;
+    /* test */
+}
+
+
+
