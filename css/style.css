@@ -20,6 +20,7 @@ nav{
 }
 
 .container{
+    display: flex;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -27,7 +28,6 @@ nav{
 
 
 .container.flex{
-    display: flex;
 }
 
 
@@ -75,14 +75,17 @@ nav .container .profile{
 /* inizio main */
 
 main .container{
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 
 main .container .images{
-    display: inline-block;
-    width: 300px;
+    
+    width: 310px;
+    margin-bottom: 30px;
 
     position: relative;
 
@@ -99,7 +102,7 @@ img{
     right: 0;
     bottom: 0;
     opacity: 0;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .images:hover .overlay{
@@ -121,6 +124,17 @@ img{
 
 .heart:hover{
     color: red;
+}
+
+
+/* prize */
+
+.prize-red{
+    color: red;
+}
+
+.prize-black{
+    text-decoration: line-through;
 }
 
 
