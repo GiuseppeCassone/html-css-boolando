@@ -15,10 +15,12 @@ body{
 
 nav{
     width: 100%;;
-    /* position: fixed;
-    top: 0; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 
-    /* margin-bottom: 40px; */
+    margin-bottom: 40px;
 
     background-color: #FF6900;
 }
